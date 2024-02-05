@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+h1 , h3 {
+    font-family: 'Sixtyfour', sans-serif;
+    margin-top: 20px;
+}
+
+
+.btn-container{ 
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.btn{
+    border: 5px solid black;
+    width: 50%;
+    width: 400px;
+    height: 200px;
+    margin: 1.5rem;
+    border-radius: 35px;
+    
+}
+
+/* color of the buttons */
+
+.red{
+    background-color:#d64f76 ;
+}
+.green{
+    background-color:#58a0ba ;
+}
+.yellow{
+    background-color:#fb903c ;
+}
+.blue{
+    background-color:#7794f9 ;
+}
+
+
+/* flash when u gonna press the button  */  
+
+.gameflash{
+    background-color: rgb(98, 255, 0);
+}
+
+.userflash{
+    background-color: rgb(199, 188, 188);
+}
